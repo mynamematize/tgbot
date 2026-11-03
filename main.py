@@ -460,7 +460,7 @@ async def receive_photo(message: Message):
                 f"Скриншот: <code>#{screenshot_id}</code>\n"
                 f"Пользователь ID: <code>{message.from_user.id}</code>\n"
                 f"Причина: {html_safe(reason, 250)}\n"
-                f"OCR: <code>{html_safe(ocr_text or 'текст не распознан', 650)}</code>",
+                f"OCR: <code>{html_safe(ocr_text or 'текст не распознан', 650)}</code>"
             ),
             parse_mode="HTML",
             reply_markup=screenshot_review_keyboard(screenshot_id),
