@@ -33,7 +33,7 @@ CHANNEL_URL = "https://t.me/oppcountgift"
 REWARDS = {
     "stars": {
         "title": "75 Telegram Stars ⭐",
-        "comment": "Кому бесплатно звезды @OppcountGIFTS",
+        "comment": "Кому бесплатно звезды @OppcountGIFTS_bot",
     },
     "cups": {
         "title": "2 подарка-кубка 🏆",
